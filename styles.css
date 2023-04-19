@@ -34,10 +34,18 @@ body {
   text-decoration: none;
 }
 
+.menu{
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
 .menu h2{
   text-align: left;
   font-size: 1.5rem;
 }
+
 
 .title img{
   width: 6rem;
