@@ -3,57 +3,62 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Exo 2', sans-serif;;
+  font-family: "Exo 2", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-size: 16px;
   line-height: 1.5;
+  scroll-margin-top: 100px;
 }
 
-.title{
+.title {
   display: inline-flex;
   margin: auto;
   align-items: center;
 }
 
-#fline{
-  display:flex;
+#fline {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#fline a{
+#fline a {
   padding: 0.4rem;
   margin-left: 0.8rem;
   margin-right: 0.4rem;
   font-size: 1.3rem;
-  background-color:#3a68df;
+  background-color: #3a68df;
   border-radius: 2cqmin;
   color: white;
   text-decoration: none;
 }
 
-.menu{
+.menu {
   display: inline-flex;
   flex-direction: column;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
 
-.menu h2{
+.menu h2 {
   text-align: left;
   font-size: 1.5rem;
 }
 
-
-.title img{
+.title img {
   width: 6rem;
   height: 6rem;
   margin-left: 1rem;
 }
 
-header, footer {
+header,
+footer {
   background-color: #3a68df;
   color: #1d1d1d;
   padding: 0.5rem;
@@ -66,32 +71,31 @@ header h1 {
   color: white;
 }
 
-.script{
+.script {
   border-style: dashed;
   border-color: #3a68df;
-  border-radius:2cqmax;
+  border-radius: 2cqmax;
 }
 
 main {
   margin: 1rem;
 }
-main h1{
+main h1 {
   font-size: 2.5rem;
   text-align: center;
 }
 
-main h2{
+main h2 {
   font-size: 2.2rem;
   text-align: center;
 }
 
-main h4{
+main h4 {
   font-size: 1.2rem;
   text-align: center;
-  
 }
 
-main p{
+main p {
   font-size: 1.2rem;
   margin: 2rem;
 }
@@ -130,115 +134,109 @@ footer p {
   color: white;
 }
 
-.SSB{
-  background-color: #F4CCCC;
+.SSB {
+  background-color: #f4cccc;
 }
 
-.SAbroad{
-  background-color: #FFF2CC;
+.SAbroad {
+  background-color: #fff2cc;
 }
 
-.HOU{
-  background-color: #D0E0E3;
+.HOU {
+  background-color: #d0e0e3;
 }
 
-.WCG{
-  background-color: #CFE2F3;
+.WCG {
+  background-color: #cfe2f3;
 }
 
-.HPW{
-  background-color: #EAD1DC;
+.HPW {
+  background-color: #ead1dc;
 }
 
-.MWC{
-  background-color: #FFC7CE;
+.MWC {
+  background-color: #ffc7ce;
 }
 
-.HB{
-  background-color: #D3B8C8;
+.HB {
+  background-color: #d3b8c8;
 }
 
-.CA{
-  background-color: #E5E0B3;
+.CA {
+  background-color: #e5e0b3;
 }
 
-.FA{
-  background-color: #B7C8B5;
+.FA {
+  background-color: #b7c8b5;
 }
 
-.GJMH{
-  background-color: #B4C6E7;
+.GJMH {
+  background-color: #b4c6e7;
 }
 
-.LIB{
-  background-color: #D7BDE2;
+.LIB {
+  background-color: #d7bde2;
 }
 
-.CCSC{
-  background-color: #A4C2F4;
+.CCSC {
+  background-color: #a4c2f4;
 }
 
-.BUS{
-  background-color: #D9D9D9;
+.BUS {
+  background-color: #d9d9d9;
 }
 
-.CHSS{
-  background-color: #FBD5AE;
+.CHSS {
+  background-color: #fbd5ae;
 }
 
-.CHTH{
-  background-color: #D9EAD3;
+.CHTH {
+  background-color: #d9ead3;
 }
 
-.ADM{
-  background-color: #C9DAF8;
+.ADM {
+  background-color: #c9daf8;
 }
 
-.UAC{
-  background-color: #D9D2E9;
+.UAC {
+  background-color: #d9d2e9;
 }
 
-.TH{
-  background-color: #F5B0CB;
+.TH {
+  background-color: #f5b0cb;
 }
 
-.HH{
-  background-color: #E6B8AF;
+.HH {
+  background-color: #e6b8af;
 }
 
-.SCI{
-  background-color: #E5D0B1;
+.SCI {
+  background-color: #e5d0b1;
 }
 
-.SEIC{
-  background-color: #D0E0E3;
+.SEIC {
+  background-color: #d0e0e3;
 }
 
-.GYM{
-  background-color: #C1D1C4;
+.GYM {
+  background-color: #c1d1c4;
 }
 
-.BH{
-  background-color: #B2A1C7;
+.BH {
+  background-color: #b2a1c7;
 }
 
-.PES{
-  background-color: #A9CCE3;
+.PES {
+  background-color: #a9cce3;
 }
 
-.SHS{
-  background-color: #B7C0C7;
+.SHS {
+  background-color: #b7c0c7;
 }
 
-.AGR{
-  background-color: #F1C6B4;
+.AGR {
+  background-color: #f1c6b4;
 }
-
-
-
-
-
-
 
 /* .SSB header{
     background-color: #ff9a9a;
@@ -253,12 +251,12 @@ footer p {
     max-width: 768px;
     margin: 1rem auto;
   }
-  
+
   article {
     display: flex;
     flex-direction: column;
   }
-  
+
   article img {
     margin: 1rem 0;
   }
@@ -269,11 +267,11 @@ footer p {
   main {
     max-width: 1024px;
   }
-  
+
   article {
     flex-direction: row;
   }
-  
+
   article img {
     max-width: 50%;
     margin: 1rem;
