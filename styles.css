@@ -6,14 +6,25 @@
   font-family: "Exo 2", sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-size: 16px;
   line-height: 1.5;
   scroll-margin-top: 100px;
+}
+
+.toggle{
+  display:inline-flex;
+  text-align: center;
+}
+
+.toggle a{
+  align-self: center;
+  text-decoration: none;
+  margin-left: 1rem;
+  background-color: rgba(80, 207, 80, 0.576);
+  border-radius: 2cqmax;
+  padding: 0.3rem;
+  color:blue;
 }
 
 .title {
