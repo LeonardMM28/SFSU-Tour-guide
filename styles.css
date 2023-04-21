@@ -17,6 +17,15 @@ body {
   text-align: center;
 }
 
+#mmap{
+  width: 90%;
+  margin: auto;
+}
+
+.mmap{
+  display: flex;
+}
+
 .toggle a{
   align-self: center;
   text-decoration: none;
